@@ -1,0 +1,24 @@
+CREATE TABLE articulo(ID int(15) primary key auto_increment,nombre varchar(100),tipo varchar(50),precio DOUBLE PRECISION,franquicia varchar(30),descripcion varchar(500),cantidad INT(15),imagen varchar(100));
+CREATE TABLE factura(ID int(15) primary key auto_increment, Usuario varchar(50),ID_ARTICULO varchar(300),cantidad varchar(300),Costetotal DOUBLE PRECISION,fecha DATE);
+
+Cosas que hacer al llegar a clase:
+
+ -Introducir admin en tabla cliente
+ -cambiar la alta de sapoarmado a 1
+
+https://www.codeigniter.com/userguide3/libraries/cart.html
+
+https://www.codeigniter.com/user_guide/database/transactions.html
+
+TERMINAR EN CASA:
+
+-CARRITO
+
+-TRANSACCIÓN
+
+-Si sobra tiempo añadir una de las optaticas /email y capcha
+
+ALL LLEGRA A CLASE 
+DROP FACTURA TABLE
+
+BLOQUEAR LA CANTIDAD EN VISTA CARRITO
